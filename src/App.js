@@ -1,11 +1,10 @@
 import './App.css';
+import Header from "./components/Header";
 
 const App = () => {
   return (
     <div className='app-wrapper'>
-      <header className='header'>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRePuK0LtkQi-nv6Py1ULm87rubc9yR9Z5n3Q&usqp=CAU" alt=""/>
-      </header>
+      <Header/>
       <nav className='nav'>
         <ul>
           <li><a href="#">Profile</a></li>
