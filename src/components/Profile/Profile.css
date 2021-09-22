@@ -1,0 +1,12 @@
+.content {
+    grid-area: c;
+    background-color: cornflowerblue;
+}
+
+.content-header {
+    width: 100%;
+}
+
+.item {
+
+}
