@@ -1,18 +1,20 @@
 import React from "react";
 import classes from './Dialogs.module.css';
+import DialogItem from "./DialogItem/DialogItem";
+import Message from "./Message/Message";
 
 const Dialogs = (props) => {
   return (
     <div>
       <div className={classes.dialogs}>
         <div className={classes.dialogsItems}>
-          <div className={classes.dialog + " " + classes.active}>Dima</div>
-          <div className={classes.dialog}>Andrey</div>
+          <DialogItem name="Dima" id="1"/>
+          <DialogItem name="Andrey" id="2"/>
         </div>
       </div>
       <div className={classes.messages}>
-        <div className={classes.message}>Hi</div>
-        <div className={classes.message}>Hi Hi</div>
+        <Message message="HI here" />
+        <Message message="Hi Hi" />
       </div>
     </div>
   )
