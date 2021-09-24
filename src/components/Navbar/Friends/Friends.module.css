@@ -1,0 +1,10 @@
+.friendsWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+h5 {
+    font-size: 30px;
+    margin: 40px 0 10px;
+    color: white;
+}
